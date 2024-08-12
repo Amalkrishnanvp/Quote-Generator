@@ -37,20 +37,24 @@ A random quote generator that provide quotes on clicking generate button. It inc
 ### Steps
 
 1. **Clone the repository**
-
-   - git clone https://github.com/Amalkrishnanvp/Quote-Generator.git (to take the project on your local machine from github)
+  
+   - to take the project on your local machine from github
+   - \```bash git clone https://github.com/Amalkrishnanvp/Quote-Generator.git \```
 
 2. **Navigate to the project directory**
 
-   - cd "Quote Generator" (directory names containing spaces need to put in double quotes to access, capital and small letters doesn't matter both works for accessing directory)
+   - directory names containing spaces need to put in double quotes to access, capital and small letters doesn't matter both works for accessing directory
+   - \```cd "Quote Generator" \```
 
 3. **Install dependencies**
-
-   - npm install (to install the libraries and modules needed for the project eg: express, handlebars etc.)
+   
+   - to install the libraries and modules needed for the project eg: express, handlebars etc.
+   - \```npm install \```
 
 4. **Run the project**
 
-   - node app.js (to run the server file)
+   - to run the server file
+   - \```node app.js \```
 
 5. **Open in browser**
 
