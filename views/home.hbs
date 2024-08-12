@@ -3,8 +3,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{title}}</title>
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1>Hi</h1>
+  <body class="bg-violet-600">
+    <div class="holder flex justify-center pt-16 px-8">
+      <div
+        class="box border border-white text-black bg-white rounded-md py-7 px-6 lg:px-12 container sm:w-9/12 md:w-8/12 lg:w-6/12"
+      >
+        <div>
+          <div class="heading">
+            <h1 class="font-semibold text-2xl sm:text-4xl text-center">Quote of
+              the day</h1>
+          </div>
+          <div class="quote-holder text-center mt-7">
+            <p class="text-lg">"Don't be a jeffrey."</p>
+          </div>
+        </div>
+        <div class="sayer text-right mt-6">
+          <p class="text-sm font-serif md:text-base">- Hamza ahmed</p>
+        </div>
+        <div class="next-btn text-center mt-10">
+          <button
+            class="py-2 px-3 rounded-md bg-violet-500 text-white text-base hover:bg-violet-600"
+          >Generate Quote</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Website scripts  -->
+    <script src="/javascripts/main.js"></script>
   </body>
 </html>
