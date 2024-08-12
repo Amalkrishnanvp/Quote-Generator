@@ -60,9 +60,9 @@ A random quote generator that provide quotes on clicking generate button. It inc
 4. **Run the project**
 
    - to run the server file
-     \```bash
+     ```bash
      node app.js
-     \```
+     ```
 
 5. **Open in browser**
 
