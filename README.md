@@ -62,7 +62,7 @@ A random quote generator that provide quotes on clicking generate button. It inc
 
 5. **Open in browser**
 
-   - Open your web browser and go to http://localhost:9000 (or the port specified in your configuration).
+   - Open your web browser and go to http://localhost:9000
 
 ## Contact
 
